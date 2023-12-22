@@ -8,9 +8,9 @@ return {
         enabled = true,
         auto_trigger = true,
         keymap = {
-          accept = "<M-Tab>", -- Modify as needed
-          next = "<M-]>",
-          prev = "<M-[>",
+          accept = "<Esc><CR>",
+          next = "<Esc>]",
+          prev = "<Esc>[",
           dismiss = "<C-]>",
         },
       },

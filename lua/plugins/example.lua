@@ -31,9 +31,9 @@ return {
       })
     end,
     keys = { -- Keymap to open VenvSelector to pick a venv.
-      { "<leader>cv", "<cmd>VenvSelect<cr>" },
+      { "<leader>cv", "<cmd>VenvSelect<cr>", desc = "Select VirtualEnv" },
       -- Keymap to retrieve the venv from a cache (the one previously used for the same project directory).
-      { "<leader>cc", "<cmd>VenvSelectCached<cr>" },
+      { "<leader>cc", "<cmd>VenvSelectCached<cr>", desc = "Select cached VirtualEnv" },
     },
   },
 }

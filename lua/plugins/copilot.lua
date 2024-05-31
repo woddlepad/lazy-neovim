@@ -8,7 +8,7 @@ return {
         enabled = true,
         auto_trigger = true,
         keymap = {
-          accept = "<Esc><CR>",
+          accept = "<Right>",
           next = "<Esc>]",
           prev = "<Esc>[",
           dismiss = "<C-]>",
